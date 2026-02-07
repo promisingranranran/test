@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北京科技大学</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>北京科技大学</h1>
+                <p>USTB</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#news">新闻</a></li>
+                    <li><a href="#teaching">教学</a></li>
+                    <li><a href="#research">科研</a></li>
+                    <li><a href="#alumni">优秀毕业生</a></li>
+                    <li><a href="#admission">招生</a></li>
+                    <li><a href="#campus">校园</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 轮播图区域 -->
+    <section class="banner" id="home">
+        <div class="carousel">
+            <div class="carousel-item active">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='400'%3E%3Crect fill='%23003366' width='1200' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='48' fill='white' text-anchor='middle' dy='.3em' font-family='Arial'%3E北京科技大学主校区%3C/text%3E%3C/svg%3E" alt="校园景观1">
+                <div class="carousel-caption">欢迎来到北京科技大学</div>
+            </div>
+            <div class="carousel-item">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='400'%3E%3Crect fill='%23004d80' width='1200' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='48' fill='white' text-anchor='middle' dy='.3em' font-family='Arial'%3E科学研究基地%3C/text%3E%3C/svg%3E" alt="科研园区">
+                <div class="carousel-caption">致力于科技创新</div>
+            </div>
+            <div class="carousel-item">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='400'%3E%3Crect fill='%23006699' width='1200' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='48' fill='white' text-anchor='middle' dy='.3em' font-family='Arial'%3E学生活动中心%3C/text%3E%3C/svg%3E" alt="学生活动">
+                <div class="carousel-caption">培育杰出人才</div>
+            </div>
+        </div>
+        <button class="carousel-prev" onclick="changeSlide(-1)">❮</button>
+        <button class="carousel-next" onclick="changeSlide(1)">❯</button>
+    </section>
+
+    <!-- 快速导航 -->
+    <section class="quick-nav">
+        <div class="container">
+            <div class="nav-item">
+                <h3>本科招生</h3>
+                <p>了解招生信息</p>
+            </div>
+            <div class="nav-item">
+                <h3>研究生招生</h3>
+                <p>研究生教育</p>
+            </div>
+            <div class="nav-item">
+                <h3>国际交流</h3>
+                <p>国际合作项目</p>
+            </div>
+            <div class="nav-item">
+                <h3>校园生活</h3>
+                <p>校园服务指南</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 校园看点 -->
+    <section class="campus-highlights" id="campus">
+        <div class="container">
+            <h2>校园看点</h2>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="card-title">讲座</div>
+                    <h3>材料科学前沿讲座系列</h3>
+                    <p>时间：2026年2月10日 14:00</p>
+                    <p>地点：学术活动中心</p>
+                    <a href="#" class="read-more">查看详情</a>
+                </div>
+                <div class="highlight-card">
+                    <div class="card-title">论坛</div>
+                    <h3>工程创新高端论坛</h3>
+                    <p>时间：2026年2月15日 09:00</p>
+                    <p>地点：校园会议中心</p>
+                    <a href="#" class="read-more">查看详情</a>
+                </div>
+                <div class="highlight-card">
+                    <div class="card-title">展览</div>
+                    <h3>科技成果展览会</h3>
+                    <p>时间：2026年2月1日-2月28日</p>
+                    <p>地点：科技馆一层</p>
+                    <a href="#" class="read-more">查看详情</a>
+                </div>
+                <div class="highlight-card">
+                    <div class="card-title">活动</div>
+                    <h3>校园文化节启动仪式</h3>
+                    <p>时间：2026年3月01日 18:00</p>
+                    <p>地点：操场中心</p>
+                    <a href="#" class="read-more">查看详情</a>
+                </div>
+            </div>
+            <a href="#" class="view-more">查看更多 ></a>
+        </div>
+    </section>
+
+    <!-- 学术科研 -->
+    <section class="research" id="research">
+        <div class="container">
+            <h2>学术科研</h2>
+            <div class="research-grid">
+                <div class="research-item">
+                    <h3>材料与冶金学院</h3>
+                    <p>新型钢铁材料研究取得突破，开发出高强度低碳钢铁新材料</p>
+                    <span class="date">2026-02-05</span>
+                </div>
+                <div class="research-item">
+                    <h3>机械工程学院</h3>
+                    <p>智能制造装备研究获得国家科技进步奖，成果已在工业应用</p>
+                    <span class="date">2026-02-03</span>
+                </div>
+                <div class="research-item">
+                    <h3>土木与环境工程学院</h3>
+                    <p>绿色建筑技术创新项目入选国家重点研发计划</p>
+                    <span class="date">2026-02-01</span>
+                </div>
+                <div class="research-item">
+                    <h3>计算机与通信工程学院</h3>
+                    <p>人工智能应用在工业流程优化中取得新成果</p>
+                    <span class="date">2026-01-30</span>
+                </div>
+                <div class="research-item">
+                    <h3>化学与生物工程学院</h3>
+                    <p>新型催化剂研究在环保领域应用前景广阔</p>
+                    <span class="date">2026-01-28</span>
+                </div>
+                <div class="research-item">
+                    <h3>经济管理学院</h3>
+                    <p>产业转型升级研究报告获得政府高度重视</p>
+                    <span class="date">2026-01-25</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 头条新闻 -->
+    <section class="headlines" id="news">
+        <div class="container">
+            <h2>头条新闻</h2>
+            <div class="headline-featured">
+                <div class="featured-image">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400'%3E%3Crect fill='%23cccccc' width='600' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='36' fill='%23666' text-anchor='middle' dy='.3em' font-family='Arial'%3E新闻图片%3C/text%3E%3C/svg%3E" alt="头条新闻">
+                </div>
+                <div class="featured-content">
+                    <h3>北京科技大学2026年新年联欢晚会隆重举行</h3>
+                    <p>在新春佳节到来之际，北京科技大学举办了主题为"拥抱新时代，奋进新征程"的新年联欢晚会。校领导、师生员工和学生代表欢聚一堂，共同迎接新的一年。晚会充分展现了北京科技大学师生昂扬向上的精神风貌和文化自信。</p>
+                    <p><small>2026年2月1日</small></p>
+                </div>
+            </div>
+
+            <div class="news-list">
+                <h3>更多新闻</h3>
+                <ul>
+                    <li>
+                        <span class="news-date">2026-02-05</span>
+                        <a href="#">学校召开2026年工作会议 部署重点工作</a>
+                    </li>
+                    <li>
+                        <span class="news-date">2026-02-03</span>
+                        <a href="#">北京科技大学获评"全国文明校园"称号</a>
+                    </li>
+                    <li>
+                        <span class="news-date">2026-02-01</span>
+                        <a href="#">学校与国际知名企业签署合作协议</a>
+                    </li>
+                    <li>
+                        <span class="news-date">2026-01-30</span>
+                        <a href="#">第十二届"挑战杯"学生科技竞赛启动</a>
+                    </li>
+                    <li>
+                        <span class="news-date">2026-01-28</span>
+                        <a href="#">学校两项成果获国家科技进步二等奖</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教学教育 -->
+    <section class="teaching" id="teaching">
+        <div class="container">
+            <h2>教学教育</h2>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <h3>100+</h3>
+                    <p>本科专业</p>
+                </div>
+                <div class="stat-box">
+                    <h3>180+</h3>
+                    <p>研究生项目</p>
+                </div>
+                <div class="stat-box">
+                    <h3>30000+</h3>
+                    <p>在校学生</p>
+                </div>
+                <div class="stat-box">
+                    <h3>3000+</h3>
+                    <p>教职员工</p>
+                </div>
+            </div>
+
+            <div class="teaching-links">
+                <h3>教学资源</h3>
+                <a href="#">本科生教育</a>
+                <a href="#">研究生教育</a>
+                <a href="#">继续教育</a>
+                <a href="#">在线教学平台</a>
+                <a href="#">图书馆资源</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 招生信息 -->
+    <section class="admission" id="admission">
+        <div class="container">
+            <h2>招生招聘</h2>
+            <div class="admission-grid">
+                <div class="admission-card">
+                    <h3>本科招生</h3>
+                    <p>2026年高考招生计划</p>
+                    <ul>
+                        <li>招生计划：3500人</li>
+                        <li>涵盖理工、管理、文科</li>
+                        <li>优惠政策丰厚</li>
+                    </ul>
+                    <a href="#" class="btn">了解详情</a>
+                </div>
+                <div class="admission-card">
+                    <h3>研究生招生</h3>
+                    <p>2026年研究生招生安排</p>
+                    <ul>
+                        <li>学术学位：200+专业</li>
+                        <li>专业学位：50+项目</li>
+                        <li>国际奖学金项目</li>
+                    </ul>
+                    <a href="#" class="btn">了解详情</a>
+                </div>
+                <div class="admission-card">
+                    <h3>国际学生</h3>
+                    <p>欢迎国际学生申请</p>
+                    <ul>
+                        <li>英文授课项目</li>
+                        <li>全额奖学金机会</li>
+                        <li>多元文化校园</li>
+                    </ul>
+                    <a href="#" class="btn">了解详情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 优秀毕业生 -->
+    <section class="outstanding-alumni" id="alumni">
+        <div class="container">
+            <h2>优秀毕业生风采</h2>
+            <div class="alumni-spotlight">
+                <div class="alumni-image">
+                    <div class="image-placeholder">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400'%3E%3Crect fill='%23e8eef7' width='300' height='400'/%3E%3Ccircle cx='150' cy='100' r='50' fill='%23003366'/%3E%3Crect x='80' y='160' width='140' height='120' fill='%23003366'/%3E%3Ctext x='150' y='320' font-size='18' fill='%23666' text-anchor='middle' font-family='Arial'%3E王亚冉%3C/text%3E%3C/svg%3E" alt="王亚冉同学">
+                    </div>
+                </div>
+                <div class="alumni-content">
+                    <div class="alumni-header">
+                        <h3>王亚冉</h3>
+                        <p class="alumni-info">22级 经济管理学院 优秀毕业生</p>
+                    </div>
+
+                    <div class="alumni-achievements">
+                        <h4>主要成就</h4>
+                        <ul>
+                            <li>学业成绩突出，累计获得校级一等奖学金4次</li>
+                            <li>担任班级班长，获得校"优秀学生干部"称号</li>
+                            <li>主持完成国家级大学生创新创业项目，荣获"挑战杯"竞赛三等奖</li>
+                            <li>参与企业实习，获得行业认可，被知名企业直接录用</li>
+                            <li>获评学校"十大优秀毕业生"，被授予"校级优秀毕业生"荣誉</li>
+                        </ul>
+                    </div>
+
+                    <div class="alumni-story">
+                        <h4>个人故事</h4>
+                        <p>王亚冉同学在校期间，坚持学以致用，充分利用学校资源进行深度学习。她不仅在专业课程中表现优异，还积极投身科研创新和社会实践。在公司实习期间，她凭借扎实的专业基础和出色的实践能力，得到了导师和团队的高度认可。</p>
+                        <p>她表示，母校提供的良好教育平台和浓厚的学术氛围为她的成长奠定了坚实基础。她相信，在北京科技大学学到的知识和锻炼的能力，将伴随她在人生和职业道路上不断前行。</p>
+                    </div>
+
+                    <div class="alumni-quote">
+                        <p><em>"感谢母校和老师们的培养，北京科技大学给了我广阔的舞台，让我能够充分展现自己的才华。我会继续为社会做出更大的贡献。"</em></p>
+                        <p className="quote-author">—— 王亚冉</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 社交媒体 -->
+    <section class="social-media">
+        <div class="container">
+            <h2>关注我们</h2>
+            <p>在社交媒体上关注北京科技大学的最新动态</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">
+                    <span>微博</span>
+                </a>
+                <a href="#" class="social-icon">
+                    <span>微信</span>
+                </a>
+                <a href="#" class="social-icon">
+                    <span>抖音</span>
+                </a>
+                <a href="#" class="social-icon">
+                    <span>B站</span>
+                </a>
+                <a href="#" class="social-icon">
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>学校概况</h4>
+                    <ul>
+                        <li><a href="#">学校简介</a></li>
+                        <li><a href="#">校园地图</a></li>
+                        <li><a href="#">校园参观</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>师生服务</h4>
+                    <ul>
+                        <li><a href="#">学生事务</a></li>
+                        <li><a href="#">教职员工</a></li>
+                        <li><a href="#">图书馆</a></li>
+                        <li><a href="#">邮箱系统</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>相关链接</h4>
+                    <ul>
+                        <li><a href="#">校友会</a></li>
+                        <li><a href="#">教育基金会</a></li>
+                        <li><a href="#">宣传资源</a></li>
+                        <li><a href="#">意见反馈</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系信息</h4>
+                    <p>北京市朝阳区管庄路30号</p>
+                    <p>电话：010-XXXX-XXXX</p>
+                    <p>邮箱：webmaster@ustb.edu.cn</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 北京科技大学 | <a href="#">京ICP备</a> | <a href="#">京公网安备</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
